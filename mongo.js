@@ -1,5 +1,5 @@
 'use strict';
-const config = require('../config');
+const config = require('./config');
 const mongoose = require('mongoose');
 try {
 	if (!mongoose.connection.readyState) {
