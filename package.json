@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Volem/dataaccesshelper/issues"
   },
-  "homepage": "https://github.com/Volem/dataaccesshelper#readme"
+  "homepage": "https://github.com/Volem/dataaccesshelper#readme",
+  "dependencies": {
+    "mongoose": "^4.13.5",
+    "mssql": "^4.1.0"
+  }
 }
