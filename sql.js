@@ -15,7 +15,6 @@ const pool = new sql.ConnectionPool({
 	database: config.sqlDatabase,
 	options: {
 		encrypt: true,
-
 	},
 	pool: {
 		min: 1,

@@ -23,5 +23,8 @@
   "dependencies": {
     "mongoose": "^4.13.5",
     "mssql": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1"
   }
 }
