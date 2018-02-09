@@ -1,5 +1,5 @@
 'use strict';
-const config = require('./config');
+const config = require('../config');
 const mongoose = require('mongoose');
 try {
 	if (!mongoose.connection.readyState) {
@@ -7,8 +7,7 @@ try {
 		mongoose.connect(config.mongodbconnection, {
 			socketTimeoutMS: 30000,
 			connectTimeoutMS: 30000,
-			keepAlive: 1000,
-			useMongoClient: true,
+			keepAlive: 1000
 		}, function (err) {
 			if (err) {
 				console.log(err);
